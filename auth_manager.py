@@ -189,57 +189,40 @@ class AuthManager:
         except PhoneCodeInvalidError:
             return {'success': False, 'error': 'Invalid code'}
         except PhoneCodeExpiredError:
+            self.cancel_auth(user_id)
             return {'success': False, 'error': 'The confirmation code has expired', 'expired': True}
         except Exception as e:
             error_msg = str(e).lower()
             if 'expired' in error_msg or 'timeout' in error_msg or 'previously shared' in error_msg:
+                self.cancel_auth(user_id)
                 return {'success': False, 'error': 'Code expired or already used. Please request a new code.', 'expired': True}
             logging.error(f"Code verify error: {e}")
             return {'success': False, 'error': str(e)}
 
     def verify_2fa(self, user_id: int, password: str) -> Dict[str, Any]:
-        if user_id not in self.pending_auth:
-            return {'success': False, 'error': 'No pending authentication'}
+        if user_id not in self.pending_auth or user_id not in self.active_clients:
+            return {'success': False, 'error': 'No pending authentication or client session lost.'}
         
         try:
-            auth_data = self.pending_auth[user_id]
+            client = self.active_clients[user_id]
+            loop = self.client_loops[user_id]
             
-            api_id = int(config.get('api_id'))
-            api_hash = config.get('api_hash')
+            loop.run_until_complete(client.sign_in(password=password))
             
-            loop = asyncio.new_event_loop()
-            asyncio.set_event_loop(loop)
+            me = loop.run_until_complete(client.get_me())
             
-            device = self.get_random_device()
-            client = TelegramClient(
-                auth_data['session_path'], 
-                api_id, 
-                api_hash,
-                device_model=device["model"],
-                system_version=device["system"],
-                app_version=device["version"],
-                lang_code="en",
-                system_lang_code="en"
-            )
+            self._cleanup_client(user_id)
             
-            try:
-                with client:
-                    result = loop.run_until_complete(client.sign_in(password=password))
-                    me = loop.run_until_complete(client.get_me())
-                    self.pending_auth.pop(user_id, None)
-                    
-                    return {
-                        'success': True,
-                        'step': 'complete',
-                        'user_info': {
-                            'id': me.id,
-                            'name': f"{me.first_name or ''} {me.last_name or ''}".strip(),
-                            'username': me.username,
-                            'phone': me.phone
-                        }
-                    }
-            finally:
-                loop.close()
+            return {
+                'success': True,
+                'step': 'complete',
+                'user_info': {
+                    'id': me.id,
+                    'name': f"{me.first_name or ''} {me.last_name or ''}".strip(),
+                    'username': me.username,
+                    'phone': me.phone
+                }
+            }
                 
         except PasswordHashInvalidError:
             return {'success': False, 'error': 'Invalid password'}
