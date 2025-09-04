@@ -1,0 +1,162 @@
+2025-09-04 11:24:56,587 - INFO - Bot initialized successfully
+2025-09-04 11:25:15,068 - INFO - Connecting to 91.108.56.113:443/TcpFull...
+2025-09-04 11:25:15,237 - INFO - Connection to 91.108.56.113:443/TcpFull complete!
+2025-09-04 11:30:11,257 - INFO - Bot initialized successfully
+2025-09-04 11:30:28,461 - INFO - Connecting to 91.108.56.113:443/TcpFull...
+2025-09-04 11:30:28,820 - INFO - Connection to 91.108.56.113:443/TcpFull complete!
+2025-09-04 11:30:29,872 - INFO - Disconnecting from 91.108.56.113:443/TcpFull...
+2025-09-04 11:30:29,873 - INFO - Disconnection from 91.108.56.113:443/TcpFull complete!
+2025-09-04 11:30:41,432 - INFO - Connecting to 91.108.56.113:443/TcpFull...
+2025-09-04 11:30:41,549 - INFO - Connection to 91.108.56.113:443/TcpFull complete!
+2025-09-04 11:30:42,328 - INFO - Disconnecting from 91.108.56.113:443/TcpFull...
+2025-09-04 11:30:42,329 - INFO - Disconnection from 91.108.56.113:443/TcpFull complete!
+2025-09-04 11:30:42,391 - ERROR - Code verify error: The confirmation code has expired (caused by SignInRequest)
+2025-09-04 11:33:28,582 - INFO - Bot initialized successfully
+2025-09-04 11:33:44,748 - INFO - Connecting to 91.108.56.113:443/TcpFull...
+2025-09-04 11:33:44,906 - INFO - Connection to 91.108.56.113:443/TcpFull complete!
+2025-09-04 11:33:45,829 - INFO - Disconnecting from 91.108.56.113:443/TcpFull...
+2025-09-04 11:33:45,830 - INFO - Disconnection from 91.108.56.113:443/TcpFull complete!
+2025-09-04 11:33:59,179 - INFO - Connecting to 91.108.56.113:443/TcpFull...
+2025-09-04 11:33:59,328 - INFO - Connection to 91.108.56.113:443/TcpFull complete!
+2025-09-04 11:34:00,169 - INFO - Disconnecting from 91.108.56.113:443/TcpFull...
+2025-09-04 11:34:00,170 - INFO - Disconnection from 91.108.56.113:443/TcpFull complete!
+2025-09-04 11:34:07,167 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-09-04 11:34:09,727 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-09-04 11:34:11,270 - INFO - Phone migrated to 5
+2025-09-04 11:34:11,516 - INFO - Reconnecting to new data center 5
+2025-09-04 11:34:11,830 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-09-04 11:34:11,831 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-09-04 11:34:11,832 - INFO - Connecting to 91.108.56.100:443/TcpFull...
+2025-09-04 11:34:21,837 - WARNING - Attempt 1 at connecting failed: TimeoutError: 
+2025-09-04 11:34:25,245 - INFO - Connection to 91.108.56.100:443/TcpFull complete!
+2025-09-04 11:34:26,464 - INFO - Disconnecting from 91.108.56.100:443/TcpFull...
+2025-09-04 11:34:26,466 - INFO - Disconnection from 91.108.56.100:443/TcpFull complete!
+2025-09-04 11:34:34,577 - INFO - Connecting to 91.108.56.100:443/TcpFull...
+2025-09-04 11:34:44,587 - WARNING - Attempt 1 at connecting failed: TimeoutError: 
+2025-09-04 11:34:45,747 - INFO - Connection to 91.108.56.100:443/TcpFull complete!
+2025-09-04 11:34:46,729 - INFO - Disconnecting from 91.108.56.100:443/TcpFull...
+2025-09-04 11:34:46,729 - INFO - Disconnection from 91.108.56.100:443/TcpFull complete!
+2025-09-04 19:32:57,506 - root - INFO - Bot started successfully
+2025-09-04 19:33:25,682 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.100:443/TcpFull...
+2025-09-04 19:33:35,684 - telethon.network.mtprotosender - WARNING - Attempt 1 at connecting failed: TimeoutError: 
+2025-09-04 19:33:36,923 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.100:443/TcpFull complete!
+2025-09-04 19:33:39,242 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.100:443/TcpFull...
+2025-09-04 19:33:39,243 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.100:443/TcpFull complete!
+2025-09-04 19:33:39,333 - root - ERROR - Phone auth error: a coroutine was expected, got {'success': True, 'step': 'code', 'message': 'Code sent to +918459770125. Please enter the verification code.'}
+2025-09-04 19:35:33,932 - root - INFO - Bot started successfully
+2025-09-04 19:37:37,537 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-09-04 19:37:40,058 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-09-04 19:37:42,035 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-09-04 19:37:42,036 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-09-04 19:37:50,969 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-09-04 19:37:51,243 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-09-04 19:37:54,389 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-09-04 19:37:54,391 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-09-04 19:38:05,530 - root - INFO - Bot started successfully
+2025-09-04 19:38:21,854 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.100:443/TcpFull...
+2025-09-04 19:38:22,034 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.100:443/TcpFull complete!
+2025-09-04 19:38:22,928 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.100:443/TcpFull...
+2025-09-04 19:38:22,930 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.100:443/TcpFull complete!
+2025-09-04 19:38:47,110 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.100:443/TcpFull...
+2025-09-04 19:38:47,290 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.100:443/TcpFull complete!
+2025-09-04 19:38:49,481 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.100:443/TcpFull...
+2025-09-04 19:38:49,483 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.100:443/TcpFull complete!
+2025-09-04 19:38:54,530 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-09-04 19:38:56,599 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-09-04 19:39:01,284 - telethon.client.users - INFO - Phone migrated to 5
+2025-09-04 19:39:01,818 - telethon.client.telegrambaseclient - INFO - Reconnecting to new data center 5
+2025-09-04 19:39:02,700 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-09-04 19:39:02,700 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-09-04 19:39:02,701 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.170:443/TcpFull...
+2025-09-04 19:39:06,036 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.170:443/TcpFull complete!
+2025-09-04 19:39:10,763 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.170:443/TcpFull...
+2025-09-04 19:39:10,764 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.170:443/TcpFull complete!
+2025-09-04 19:39:21,783 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.170:443/TcpFull...
+2025-09-04 19:39:21,866 - root - ERROR - Resend callback error: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: query is too old and response timeout expired or query ID is invalid
+2025-09-04 19:39:21,927 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.170:443/TcpFull complete!
+2025-09-04 19:39:22,312 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: query is too old and response timeout expired or query ID is invalid
+2025-09-04 19:39:22,316 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\HP\Downloads\SessionMaster\SessionMaster\bot.py", line 441, in handle_resend_code
+    bot.answer_callback_query(call.id)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\telebot\__init__.py", line 4634, in answer_callback_query
+    return apihelper.answer_callback_query(self.token, callback_query_id, text, show_alert, url, cache_time)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\telebot\apihelper.py", line 1625, in answer_callback_query
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: query is too old and response timeout expired or query ID is invalid
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\telebot\util.py", line 147, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\telebot\util.py", line 90, in run
+    task(*args, **kwargs)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\telebot\__init__.py", line 6801, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Downloads\SessionMaster\SessionMaster\bot.py", line 444, in handle_resend_code
+    bot.answer_callback_query(call.id, "Error resending code")
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\telebot\__init__.py", line 4634, in answer_callback_query
+    return apihelper.answer_callback_query(self.token, callback_query_id, text, show_alert, url, cache_time)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\telebot\apihelper.py", line 1625, in answer_callback_query
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: query is too old and response timeout expired or query ID is invalid
+
+2025-09-04 19:39:23,918 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.170:443/TcpFull...
+2025-09-04 19:39:23,919 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.170:443/TcpFull complete!
+2025-09-04 20:18:48,744 - root - INFO - Bot started successfully
+2025-09-04 20:18:48,756 - root - ERROR - Polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7872738106:AAHtJs1cCKvrkUXXkhXKtHM_cDDAs-fpCa4/getMe (Caused by NewConnectionError('<urllib3.connection.HTTPS
+2025-09-04 20:19:03,762 - root - ERROR - Polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7872738106:AAHtJs1cCKvrkUXXkhXKtHM_cDDAs-fpCa4/getMe (Caused by NewConnectionError('<urllib3.connection.HTTPS
+2025-09-04 20:19:18,768 - root - ERROR - Polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7872738106:AAHtJs1cCKvrkUXXkhXKtHM_cDDAs-fpCa4/getMe (Caused by NewConnectionError('<urllib3.connection.HTTPS
+2025-09-04 20:19:33,769 - root - ERROR - Polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7872738106:AAHtJs1cCKvrkUXXkhXKtHM_cDDAs-fpCa4/getMe (Caused by NewConnectionError('<urllib3.connection.HTTPS
+2025-09-04 20:19:59,849 - root - INFO - Bot started successfully
+2025-09-04 20:21:19,233 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.170:443/TcpFull...
+2025-09-04 20:21:19,342 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.170:443/TcpFull complete!
+2025-09-04 20:21:20,554 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.170:443/TcpFull...
+2025-09-04 20:21:20,554 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.170:443/TcpFull complete!
+2025-09-04 20:21:31,844 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.170:443/TcpFull...
+2025-09-04 20:21:32,006 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.170:443/TcpFull complete!
+2025-09-04 20:21:38,709 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.170:443/TcpFull...
+2025-09-04 20:21:38,710 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.170:443/TcpFull complete!
+2025-09-04 20:25:12,447 - root - INFO - Bot started successfully
+2025-09-04 20:25:46,555 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.170:443/TcpFull...
+2025-09-04 20:25:46,708 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.170:443/TcpFull complete!
+2025-09-04 20:26:36,531 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.170:443/TcpFull...
+2025-09-04 20:26:36,677 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.170:443/TcpFull complete!
+2025-09-04 20:26:38,923 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.170:443/TcpFull...
+2025-09-04 20:26:38,924 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.170:443/TcpFull complete!
+2025-09-04 20:27:20,946 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.170:443/TcpFull...
+2025-09-04 20:27:21,090 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.170:443/TcpFull complete!
+2025-09-04 20:27:32,165 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.170:443/TcpFull...
+2025-09-04 20:27:32,167 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.170:443/TcpFull complete!
+2025-09-04 20:30:29,135 - root - INFO - Bot started successfully
+2025-09-04 20:31:09,530 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.170:443/TcpFull...
+2025-09-04 20:31:09,656 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.170:443/TcpFull complete!
+2025-09-04 20:31:10,566 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.170:443/TcpFull...
+2025-09-04 20:31:10,569 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.170:443/TcpFull complete!
+2025-09-04 20:31:32,710 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.170:443/TcpFull...
+2025-09-04 20:31:32,834 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.170:443/TcpFull complete!
+2025-09-04 20:31:43,956 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.170:443/TcpFull...
+2025-09-04 20:31:43,956 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.170:443/TcpFull complete!
+2025-09-04 20:35:16,878 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.170:443/TcpFull...
+2025-09-04 20:35:17,006 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.170:443/TcpFull complete!
+2025-09-04 20:41:20,789 - root - INFO - Bot started successfully
+2025-09-04 20:41:35,047 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.170:443/TcpFull...
+2025-09-04 20:41:35,193 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.170:443/TcpFull complete!

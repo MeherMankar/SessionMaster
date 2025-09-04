@@ -1,0 +1,9 @@
+pyTelegramBotAPI==4.14.0
+telethon==1.32.1
+opentele==1.15.1
+flask==2.3.3
+flask-cors==4.0.0
+cryptography==41.0.7
+aiofiles==23.2.1
+psutil==5.9.6
+requests==2.31.0
